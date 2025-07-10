@@ -1,0 +1,27 @@
+logging:
+  level:
+    root: WARN
+    sql: ERROR
+    web: WARN
+    panomete.poc.ezyxcel: INFO
+    org.springframework.web: INFO
+    org.hibernate: ERROR
+    org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer: ERROR
+  pattern:
+    console: "%clr(%d{${LOG_DATEFORMAT_PATTERN:yyyy-MM-dd HH:mm:ss.SSS Z}}){magenta} |  %clr(${LOG_LEVEL_PATTERN:%-5p}) | %clr(%-40.40logger{39}){cyan} | %clr(%-25.25M){yellow} | %m%n${LOG_EXCEPTION_CONVERSION_WORD:%wEx}"
+
+spring:
+  application:
+    name: ezyxcel poc
+  profiles:
+    active: dev
+  devtools:
+    livereload:
+      enabled: true
+      port: 8081
+  threads:
+    virtual:
+      enabled: true
+  output:
+    ansi:
+      enabled: always
