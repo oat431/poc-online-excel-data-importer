@@ -25,3 +25,6 @@ spring:
   output:
     ansi:
       enabled: always
+
+datasource:
+  mock: https://o365cmu-my.sharepoint.com/:x:/g/personal/chartchai_d_cmu_ac_th/EaPiNoU-cYpCmWYEHjAZjjkB95WaIDYA8M5GrYIhMZgWRw?rtime=AwvXExLB3Ug
