@@ -27,4 +27,4 @@ spring:
       enabled: always
 
 datasource:
-  mock: https://1drv.ms/x/c/7af14124b96ca208/EZnDU6y3K-ZNqjjtFYHS9IMBMSmmVU2hRlDz8LxW2PdRAQ?e=exF8Xv&nav=MTVfe0JGNzMzMUI5LUE1Q0UtNEQzNy1CMDQyLUVBRTg5RkYxRTBFQ30
+  mock: https://raw.githubusercontent.com/oat431/poc-online-excel-data-importer/main/src/main/resources/MockupCheckRoom.xlsx

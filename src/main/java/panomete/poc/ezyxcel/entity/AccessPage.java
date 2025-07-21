@@ -4,10 +4,9 @@ import com.alibaba.excel.annotation.ExcelProperty;
 import lombok.Data;
 
 @Data
-public class Role{
+public class AccessPage{
         @ExcelProperty("name")
         String name;
-
         @ExcelProperty("description")
         String description;
 }
